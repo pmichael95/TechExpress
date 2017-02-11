@@ -1,0 +1,35 @@
+body {
+  padding-top: 50px;
+}
+
+.product {
+  min-height: 220px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #DEDEDE;
+}
+
+.product img {
+	float: left;
+	width: 160px;
+	margin-right: 20px;
+}
+
+.product h1, .product h3{
+	margin-top: 0px;
+	margin-bottom: 0;
+}
+
+.product p, .product span{
+	display: block;
+	overflow: hidden
+}
+
+.sale{
+	font-size:15px;
+	color:#fff;
+	border:2px solid #DB4F4F;
+	padding:0px 5px;
+	background:#DB4F4F;
+	border-radius:25px
+}
